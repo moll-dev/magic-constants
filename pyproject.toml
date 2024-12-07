@@ -1,0 +1,23 @@
+[project]
+name = "magic-constants"
+version = "1.0.0"
+authors = [
+  { name="Thomas Moll", email="tom@moll.dev" },
+]
+keywords = []
+description = "Make constants in python more magic 🪄"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+
+[project.optional-dependencies]
+test = ["pytest >= 6"]
+
+
+[project.urls]
+Source = "https://github.com/moll-dev/magic-constants"
+Issues = "https://github.com/moll-dev/magic-constants/issues"
